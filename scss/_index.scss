@@ -34,3 +34,8 @@
     bottom: 100px;
     font-size: 1rem;
 }
+
+.animate{
+    animation: animate .6s cubic-bezier(0.2,0.6,0.2,1);
+    animation-fill-mode: backwards;
+}
