@@ -14,6 +14,8 @@ $white: #ffffff;
 $grey: #333333;
 $primary: #1f4986;
 $secondary: #C47335;
+$danger: #cc2936;
+$succes: #63D471;
 
 // BREAK POINTS
 $grid-breakpoints: (
@@ -33,7 +35,9 @@ $theme-colors: (
         'dark': $dark,
         'primary': $primary,
         'secondary': $secondary,
-        'succes':green,
-        'danger': red,
+        'succes':$succes,
+        'danger': $danger,
 
 );
+
+$card-height: 100%
