@@ -1,8 +1,4 @@
-.logo{
-    float: right;
-}
-
-.logo-inner{
+.logo-inner-project{
     color: $dark;
     position: fixed;
     top: 10%;
@@ -10,14 +6,15 @@
     font-weight: bold;
 }
 
+
 @media screen and (max-width: 767px) {
-    .logo-inner {
+    .logo-inner-project {
         top: 5%;
         left: 75%;
     }
 }
 
-.label-logo {
+.label-logo-project {
     -webkit-animation: fadelogo .6s cubic-bezier(0.2, 0.6, 0.2, 1);
     -moz-animation: fadelogo .6s cubic-bezier(0.2, 0.6, 0.2, 1);
     animation: fadelogo .6s cubic-bezier(0.2, 0.6, 0.2, 1);
@@ -25,57 +22,22 @@
     -moz-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
 }
-.label-logo::after {
+.label-logo-project::after {
     font-size: 20px;
     content: "go.back.";
 }
 
-.label-logo:hover::after{
-    content: "go.back.home";
+.label-logo-project:hover::after{
+    content: "go.back.projects";
     white-space: nowrap;
 }
 
-.on-hover-logo{
+.on-hover-logo-project{
     transition: all .4s cubic-bezier(0.2,0.6,0.2,1);
 }
 
-.on-hover-logo:hover{
+.on-hover-logo-project:hover{
     margin-left: -40;
     transform: translateX(-40px);
     transition: all .4s cubic-bezier(0.2,0.6,0.2,1);
-}
-
-
-.top-bottom-margin{
-    margin-top: 25vh;
-    margin-bottom: 50px;
-}
-
-.top-image {
-    width: 100vw;
-    overflow: hidden !important;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
-    float: left;
-    margin: 10vh 0;
-}
-
-.top-image img{
-    width: 100%;
-    object-fit: cover;
-    pointer-events: none !important;
-}
-
-img{
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
-.delay02{
-    animation-delay: .2s;
-}
-
-.block-overflow{
-    width: 100%;
-    overflow: hidden;
 }
