@@ -63,31 +63,35 @@
       </div>
       <div class=" top-bottom-margin container">
         <div class="">
-          <h1 class="mt-2 col-8 fw-bold fs-3 lh-sm">Onkostenapplicatie Thomas More</h1>
+          <h1 class="mt-2 col-8 fw-bold fs-3 lh-sm">Webapplicatie in Angular</h1>
           <div class="col-7 mt-3">
             <p class="mt-3 text-muted">
-              Stressvrij onkosten opvolgen.
+              Digitale hondenschool
             </p>
           </div>
           <div class="top-image text-end d-block animate delay02">
-            <img src="../img/PHP/php_header_img.png" class="img-fluid" alt="Php project screenshot">
+            <img src="../img/Angular/homescreen.png" class="img-fluid" alt="Home screens on laoptop and phone">
           </div>
         </div>
         <div class="offset-1">
-          <h1 class="fw-bold d-block fs-5">Onkostenapplicatie Thomas More</h1>
+          <h1 class="fw-bold d-block fs-5">Webapplicatie in Angular</h1>
         </div>
         <div class="col-9 mt-3 offset-1">
           <div class="mt-4">
             <h2></i>Inleiding</h2>
             <p class="mt-3">
-              In het tweede jaar van de opleiding werd in groep een applicatie ontwikkeld voor een 'fictieve' klant. Dit kaderde in de vakken 'Requirements Analysis'
-              en 'Project PHP'. In het tweede kwartaal hadden we in het vak "Webapplicaties in PHP" Laravel 7 gekregen. De opdracht werd dan ook in Laravel 7
-              opgemaakt. 
+              In het derde jaar van de opleiding moesten we voor het vak 'Angular' een full stack webapplicatie maken. Het project had enkele vereisten. 
+              Zo moest de backend gemaakt worden in ASP.NET Core (.NET 5), de API moest beveiligd zijn aan de hand van JWT-tokens, en het gebruikte datamodel moest minstens
+              5 tabellen bevatten die in een relationele databank werden opgeslagen. 
             </p>
             <p class="mt-3">
-              De opdrachtgever was een docent van Thomas More die ons een probleem voorschotelde waarvoor wij een oplossing diende te bedenken.
-              Het probleem was het opvolgen van onkosten binnen Thomas More. Deze werden allemaal op papier gedeclareerd en er was geen makkelijker
-              mogelijkheid om deze op te volgen. De doelstelling van het project was het faciliteren van de aanvrager die zijn/haar onkosten binnenbrengt.
+              De frontend moest, uiteraard, ontwikkeld worden in Angular. Ook hier waren enkele eisen voor bepaald. Er moest een dashboard zijn voor iedereen. Gebruikers 
+              moesten kunnen inloggen en afhankelijk van hun rol andere mogelijkheden krijgen. Zo moest een volledige CRUD (Create, Read, Update, Delete) functionaliteit aanwezig
+              zijn voor de administrator, voor leden moest een functionalilteit naar keuze uitgewerkt worden en het design moest responsief zijn.
+            </p>
+            <p class="mt-3">
+              Het onderwerp van de opdracht was een vrij keuze. Sinds ik in het najaar van 2021 hondeneigenaar was en naar de hondenschool ging, besloot 
+              ik daarvoor een applicatie uit te werken.
             </p>
             <table class="mt-3 table table-striped text-muted">
               <thead>
@@ -95,39 +99,50 @@
               <tbody>
                 <tr>
                   <td>Team:</td>
-                  <td>Kevin Vandeputte, Valerie Becquart, Michal Davidse, Lode Bosmans</td>
+                  <td>Kevin Vandeputte</td>
                 </tr>
                 <tr>
                   <td>Technologie:</td>
-                  <td>Laravel, Vagrant, Homestead</td>
+                  <td>ASP.NET Core (.NET 5), Angular 12, UML</td>
                 </tr>
                 <tr>
                   <td>Looptijd:</td>
-                  <td> Tweede en vierde kwartaal academiejaar 2020-2021</td>
+                  <td> Vierde kwartaal academiejaar 2021-2022</td>
                 </tr>
               </tbody>
             </table>
+            <img src="../img/Angular/Ursa_trinity.png" class="img-fluid mt-4" alt="3 foto's van hond">
 
           </div>
           <div class="mt-5">
             <h2><i class="fa-solid fa-circle fa-xs me-3" style="color:#FFFF22"></i>Concept</h2>
             <p class="mt-3">
-              In de conceptfase lag de focus op het capteren van de noden en de wensen van de klant. Hier leerde ik het belang van de functionele 
-              en de niet-functionele analyse en de noodzaak om hier voldoende tijd aan te spenderen. 
+              Aangezien de opdracht duidelijk geformuleerd en afgelijnd was leek de conceptfase overbodig, maar als ik iets had geleerd uit het project ' 
+              <a  href="../projects/onkosten-applicatie-thomas-more.html" target="_blank"> Onkostenapplicatie Thomas More</a>' dan was het het belang van een goede analyse en voorbereiding.
             </p>
             <p class="mt-3">
-              Het resultaat van de conceptfase was een analyse rapport waarin de functionele en niet-functionele eisen werden besproken en opgelijst.
-              Ook het datamodel en het use-case diagram werd uitgewerkt. Ook een low-level mockup werd opgemaakt.
+              Daarom maakt ik voor dit project ook een usecasediagram op. Dit liet me toe te controleren dat ik geen enkele eis over het hoofd zag en het gaf me een houvast
+              tijdens het ontwikkelproces. Ook maakte ik een datamodel dat me zou toelaten de usecases te ontwikkelen.
             </p>
-            <img src="../img/PHP/rapport_eisen_analyse.png" class="img-fluid mt-4" alt="Eisenanalyse rapport">
+            <img src="../img/Angular/concept.png" class="img-fluid mt-4" alt="Documenten conceptfase">
           </div>
           <div class="mt-5">
             <h2><i class="fa-solid fa-circle fa-xs me-3" style="color:#2AFF2A"></i>Ontwikkeling</h2>
             <p class="mt-3">
-              De eisenanalyse die opgemaakt was in het tweede kwartaal was de leidraad voor het ontwikkelingsproces. In deze fase leerde ik in team 
-              werken tijdens een development proces. Git werd een tweede natuur en wekelijks werd er een sprint meeting gehouden om de voortgang en 
-              knelpunten te detecteren. Ik was verantwoordelijk voor het ontwikkelen van het dashboard en ook de admin functionaliteit werkte ik uit. 
+              Dit was de eerste keer dat ik een project van deze omvang alleen op mij nam, want ik had mijn usecases en datamodel uitgebreider dan nodig gemaakt.
             </p>
+            <p class="mt-3">
+              Tot dan toe waren grotere projecten steeds teamwerk geweest. Dit vormde meteen een uitdaging. Zo duurt een academisch kwartaal voor ons ongeveer 8 weken.
+              Dus op deze 8 weken tijd diende ik een full stack applicatie te ontwikkelen en dat terwijl het Angular framework 
+              volledig nieuw voor me was. 8 weken lijken veel, maar niet als die gecombineerd wordt met een fulltime job. Ik besefte al snel dat ik niet alles zou kunnen uitwerken zoals ik het 
+              in mijn hoofd had. Ik koos ervoor om bepaalde usecases te laten vallen maar de usecases die over bleven wel heel verder uit te werken en alle mogelijke scenarios te testen. Op die manier 
+              voldeed ik nog steeds aan de vooropgestelde eisen en waren deze ook meer dan behoorlijk ingevuld.
+            </p>
+            <p class="mt-3">
+              Ik had ook kunnen kiezen om meer usecases uit te werken, maar dan zouden alle usecases minder volledig zijn uitgewerkt. Ik leerde in dit project 
+              snel keuzes te maken door altijd kwaliteit boven kwantiteit te stellen.
+            </p>
+
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -137,31 +152,31 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="../img/PHP/ingave_onkosten.png" class="d-block w-100" alt="module aanmaken onkosten">
+                  <img src="../img/Angular/enrolling.png" class="d-block w-100" alt="screenshot van inschrijvingsmodule">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Onkosten aanmaken</h5>
-                    <p>Module voor het aanmaken van onkosten</p>
+                    <h5>Inschrijvingsmodule</h5>
+                    <p>Hier kunnen niet-leden zich inschrijven voor infosessies.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="../img/PHP/opvolgen_onkosten.png" class="d-block w-100" alt="opvolgen onkosten">
+                  <img src="../img/Angular/dashboard.png" class="d-block w-100" alt="screenshot van dashboard">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Onkosten opvolgen</h5>
-                    <p>Mogelijkheid tot opvolgen van onkosten.</p>
+                    <h5>Dashboard</h5>
+                    <p>Dashboard voor alle leden met mogelijkheid tot inschrijven.</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                  <img src="../img/PHP/goedkeuren_onkosten.png" class="d-block w-100" alt="goedkeuren onkosten">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Onkosten goedkeuren</h5>
-                    <p>Personen met juiste rechten kunnen onkosten goedkeuren</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <img src="../img/PHP/adminportaal.png" class="d-block w-100" alt="admin dashboard">
+                  <img src="../img/Angular/admin.png" class="d-block w-100" alt="admin dashboard">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Admin functionaliteit</h5>
-                    <p>Admin portaal met ledenbeheer</p>
+                    <p>Leden- en eventbeheer</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../img/Angular/swagger.png" class="d-block w-100" alt="screenshot van swagger implementatie">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Swagger implementatie</h5>
+                    <p>Swagger werd geintegreerd in het backend project</p>
                   </div>
                 </div>
               </div>
@@ -178,41 +193,19 @@
           <div class="mt-5">
             <h2><i class="fa-solid fa-circle fa-xs me-3" style="color:#23BFFF"></i>Communicatie</h2>
             <p class="mt-3">
-              Tijdens de conceptfases waren er verschillende contactmomenten met de klant om de noden en wensen te leren begrijpen. Ik leerde hier hoe hoofdzaak 
-              van bijzaak te scheiden en me niet te verliezen in onnodige details. Als team hadden we een duidelijke rolverdeling zodat de klant een 'single 
-              point of contact' had.
+              Het afsluiten van zo'n project, ook al is het in een academische context, gaat steeds gepaard met een evaluatiemoment. Dit kan ook gezien worden als 
+              communicatie, want ook hier is het de bedoeling om het project te promoten, de volledigheid ervan te demonstreren en de extraatjes te 
+              onderstrepen. Ik werkte voor dit evaluatiemoment een scenario uit zodat ik tijdens het demo-moment kon aantonen dat ik aan alle eisen voldeeed maar ook de 
+              sterke kanten van mijn project kon toelichten. Zo had ik bijvoorbeeld ook meer tijd gespendeerd aan de user experience (UX) en creeerde ik een notificatiesysteem 
+              dat de gebruiker feedback geeft.
             </p>
-            <p class="mt-3">
-              Tijdens het ontwikkelproces waren er na iedere sprint meetings met de klant om de voortgang te bespreken en te tonen. Hierin werd het 
-              belang van korte ontwikkelcyclussen duidelijk. Dit liet ons toe kort op de bal te spelen en kon tijdig bijgestuurd worden zonder de 
-              timing van het project in het gevaar te brengen.
-            </p>
+            <img src="../img/Angular/notificaties.png" class="img-fluid mt-4" alt="Afbeelding van notificatiesysteem">
           </div>
           <div class="mt-5 mb-5">
             <h2>Bijlagen</h2>
-
-            <table class="mt-3 table table-striped text-muted">
-              <thead>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Rapport eisenanalyse:</td>
-                  <td>        
-                    <a class="icon-link text-secondary link-underline-dark link-offset-2 link-offset-3-hover link-underline-opacity-0 link-underline-opacity-75-hover" href="../pdf/PHP_analyse-en-ontwerprapport.pdf" download="PHP_analyse-en-ontwerprapport.pdf" target="_blank">
-                      Open analyse- en ontwerprapport
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Project link:</td>
-                  <td><a href="https://project.oho1.be" target="_blank">https://project.oho1.be</a></td>
-                </tr>
-                <tr>
-                  <td>Gebruiker gegevens:</td>
-                  <td>email: testuser@oho1.be wachtwoord: user1234</td>
-                </tr>
-              </tbody>
-            </table>
+            <p class="mt-3">
+              Niet van toepassing. 
+            </p>
           </div>
         </div>
       </div>
