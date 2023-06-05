@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+
+    <!-- Regular data -->
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Description -->
+    <meta name="author" content="Kevin Vandeputte"/>
+    <meta name="description" content="Ik ontwikkel oplossingen"/>
+    <meta name="keywords"  content="kevin,vandeputte,kevin vandeputte,portfolio,developer,water expert,freelance,interface, digital twins"/>
+    <meta name="Resource-type" content="Document"/>
+
+    <!-- Open Graph data -->		
+    <meta property="og:site_name" content="Kevin Vandeputte"/>
+    <meta property="og:title" content="Kevin Vandeputte" />
+    <meta property="og:description" content="Ik ontwikkel oplossingen."/>
+    <meta property="og:image" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+
+    <!-- Title -->
+    <title>Kevin Vandeputte</title>
+
+    <!-- Twitter -->	
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Kevin Vandeputte">
+    <meta name="twitter:description" content="Ik ontwikkel oplossingen">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:image" content="">
+
+    <!-- Icons -->	
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/a4d7803da2.js" crossorigin="anonymous"></script>
+    
+    <!-- SCRIPTS -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <body >
+    <div class="block-overflow">
+      <div class="max-width">
+        <div class="logo">
+          <div class="logo-inner-project">
+            <a href="../projects.html">
+              <div class="label-logo-project on-hover-logo-project text-color-white"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class=" top-bottom-margin container">
+        <div class="">
+          <h1 class="mt-2 col-8 fw-bold fs-3 lh-sm">Augmented reality applicatie</h1>
+          <div class="col-7 mt-3">
+            <p class="mt-3 text-muted">
+              Geo-based avontuur.
+            </p>
+          </div>
+          <div class="top-image text-end d-block animate delay02">
+            <img src="../img/AR/header.png" class="img-fluid" alt="Header image met meerdere screens">
+          </div>
+        </div>
+        <div class="offset-1">
+          <h1 class="fw-bold d-block fs-5">Augmented reality applicatie</h1>
+        </div>
+        <div class="col-9 mt-3 offset-1">
+          <div class="mt-4">
+            <h2></i>Inleiding</h2>
+            <p class="mt-3">
+              In het eerste kwartaal van het laatste acadmiejaar moesten we, in team van twee, voor het vak 'Adv programming topics & Mobile Development' een mobiele augmented reality applicatie maken
+              met een eigen ontwikkelde backend die werd opgezet op basis van minstens 2 backend microservices en 1 edge microservice. De mobiele applicatie werd ontwikkeld in Flutter als frontend framework
+              en Wikitude werd gebruikt als augmented reality engine.
+            </p>
+            <p class="mt-3">
+              We kregen de vrije keuze welk type augmented reality we zouden toepassen. Zo konden we bijvoorbeeld kiezen tussen geolocatie gebaseerd, beeldherkenning, object herkenning. Omdat we onszelf
+              wilden uitdagen kozen we voor een geolocatie gebaseerde toepassing. 
+            </p>
+            <table class="mt-3 table table-striped text-muted">
+              <thead>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Team:</td>
+                  <td>Kevin Vandeputte, Valerie Becquart</td>
+                </tr>
+                <tr>
+                  <td>Technologie:</td>
+                  <td>Spring Boot, Flutter, Wikitude</td>
+                </tr>
+                <tr>
+                  <td>Looptijd:</td>
+                  <td> Eerste kwartaal academiejaar 2022-2023</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+          <div class="mt-5">
+            <h2><i class="fa-solid fa-circle fa-xs me-3" style="color:#FFFF22"></i>Concept</h2>
+            <p class="mt-3">
+              Om ervoor te zorgen dat we de toepassing op dezelfde manier zagen hielden we een korte brainstormsessie waarop een aantal low-level mockups werden gemaakt. Dit zorgde een intiele flow 
+              van de applicatie waarop we konden verder bouwen tijdens het ontwikkelproces.
+            </p>
+            <img src="../img/AR/low-level-mockups.png" class="img-fluid mt-4" alt="Mockups tijdens conceptfase">
+          </div>
+          <div class="mt-5">
+            <h2><i class="fa-solid fa-circle fa-xs me-3" style="color:#2AFF2A"></i>Ontwikkeling</h2>
+            <p class="mt-3">
+              Tijdens de ontwikkelfase besloten we ons eerst te richten op het deployen van de backend. Hoewel we in de conceptfase geen datamodel hadden uitgewerkt wisten we wel dat 
+              onze backend een gebruikers- en spelservice zou nodig hebben. Dus we verdeelden de taken en ik zette de gebruikersservice en edgeservice op terwijl mijn teamgenoot zich bezighield met de 
+              spelservice. We hielden nog geen rekening met hoe we onze spel- en gebruikersdata precies wilden bijhouden, dat was voor later, maar door op deze manier te werken hadden we heel snel een
+              operationele backend waarop we onze frontend applicatie konden ontwikkelen. Tijdens de ontwikkeling van de frontend kwamen dan zaken aan het licht waarop we onze backend snel konden aanpassen. 
+              Ik leerde dus kleine iteratieve stappen te nemen tijdens het ontwikkelproces.
+            </p>
+            <img src="../img/AR/architectuur.png" class="img-fluid mt-4" alt="Project architectuur">
+            <p class="mt-3">
+              Het ontwikkelen van de frontend applicatie bracht enkele uitdagingen met zich mee. Zo hadden we gekozen voor een geolocatie gebaseerde applicatie. Terwijl ik mij bezighield met de interactie
+              tussen FLutter en Wikitude en hoe we tussen beide platformen moesten communiceren hield mijn teamgenoot zich bezig met het modelleren van de 3D-objecten en het implementeren van de geolocatielogica.
+              Dit laatste was echter niet zo evident en hier liepen we vaak tegen matige tot slechte documentatie die ons geen stap vooruit hielp. Dus dit werd een probleem dat we samen, via lange team calls, 
+              zouden aanpakken. Enkele weken in het project zaten we hier nog altijd op vast waardoor we op een punt kwamen dat we moesten kiezen: doorzetten en hopen dat we een oplossing vonden voor ons probleem 
+              of het concept van de applicatie aanpassen zodat we hiermee wel verder konden. We besloten onszelf nog een weekend tijd te geven vooraleer we het concept zouden aanpassen. UIteindelijk vond ik op 
+              de laatste ochtend  de oplossing van ons probleem waardoor we de applicatie verder konden ontwikkelen. Ik leerde doorzetten, ook al werden we er soms moedeloos van, en vertrouwen hebben in mijn
+              probleemoplossend vermogen en vaardigheden als ontwikkelaar.
+            </p>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="../img/AR/3Dobject.png" class="d-block w-100" alt="3D object in AR">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Augmented Reality</h5>
+                    <p>Via de Wikitude engine worden 3D-objecten in de wereld toegevoegd.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/AR/question.png" class="d-block w-100" alt="Vraagstelling">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Spelelement</h5>
+                    <p>Via het beantwoorden van vragen kunnen objecten verzameld worden.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../img/AR/highscores.png" class="d-block w-100" alt="highscores pagina">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Highscores</h5>
+                    <p>Bekijk de topscores en ga de uitdaging aan.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="mt-5">
+            <h2><i class="fa-solid fa-circle fa-xs me-3" style="color:#23BFFF"></i>Communicatie</h2>
+            <p class="mt-3">
+              Voor het evaluatiemoment hadden we een presentatie en demovideo voorbereid. Ik nam het deel over de backend voor mijn rekening terwijl mijn collega de frontendapplicatie toelichtte.
+            </p>
+            <iframe class="mt-3" width="960" height="540" src="https://www.youtube.com/embed/l_m0ExcKlv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="mt-5 mb-5">
+            <h2>Bijlagen</h2>
+            <table class="mt-3 table table-striped text-muted">
+              <thead>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Eindpresentatie project:</td>
+                  <td>        
+                    <a class="icon-link text-secondary link-underline-dark link-offset-2 link-offset-3-hover link-underline-opacity-0 link-underline-opacity-75-hover" href="../pdf/AR_Projectvoorstelling.pdf" download="AR_Projectvoorstelling.pdf" target="_blank">
+                      Projectvoorstelling
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
