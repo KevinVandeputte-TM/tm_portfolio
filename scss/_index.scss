@@ -30,7 +30,6 @@
 }
 
 .links-home{
-    color: red !important;
     width: 100%;
     position: absolute;
     bottom: 100px;
@@ -40,4 +39,44 @@
 .animate{
     animation: animate .6s cubic-bezier(0.2,0.6,0.2,1);
     animation-fill-mode: backwards;
+}
+
+.links-home-ref{
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+
+.links-home-ref:hover{
+  text-decoration: underline;
+}
+
+.hover-underline-animation {
+    font-weight: 100 !important;
+
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
