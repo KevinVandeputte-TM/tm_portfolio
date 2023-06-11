@@ -27,11 +27,11 @@
 }
 .label-logo::after {
     font-size: 20px;
-    content: "ga.terug.";
+    content: "terug.";
 }
 
 .label-logo:hover::after{
-    content: "ga.terug.home";
+    content: "terug.home";
     white-space: nowrap;
 }
 
@@ -47,7 +47,7 @@
 
 
 .top-bottom-margin{
-    margin-top: 25vh;
+    margin-top: 18vh;
     margin-bottom: 50px;
 }
 
@@ -57,7 +57,7 @@
     overflow-x: hidden !important;
     overflow-y: hidden !important;
     float: left;
-    margin: 10vh 0;
+    margin: 5vh 0;
 }
 
 .top-image img{
