@@ -45,6 +45,7 @@
 
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/a4d7803da2.js" crossorigin="anonymous"></script>
+
     
     <!-- SCRIPTS -->
     <script src="../js/bootstrap.bundle.min.js"></script>
@@ -55,7 +56,7 @@
       <div class="max-width">
         <div class="logo">
           <div class="logo-inner-project">
-            <a href="../projects.html">
+            <a href="../projects.html#projects">
               <div class="label-logo-project on-hover-logo-project text-color-white"></div>
             </a>
           </div>
@@ -70,7 +71,7 @@
             </p>
           </div>
           <div class="top-image text-end d-block animate delay02">
-            <img src="../img/PHP/php_header_img.png" class="img-fluid" alt="Php project screenshot">
+            <img src="../img/PHP/php_header.png" class="img-fluid" alt="Php project screenshot">
           </div>
         </div>
         <div class="offset-1">
@@ -116,7 +117,7 @@
             </p>
             <p class="mt-3">
               Het resultaat van de conceptfase was een analyserapport waarin de functionele en niet-functionele eisen werden besproken en gedocumenteerd.
-              Ook het datamodel en het use-case diagram werden uitgewerkt en werd er een low-level mock-up opgemaakt.
+              Ook het datamodel en het usecasediagram werden uitgewerkt en werd er een low-level mock-up opgemaakt.
             </p>
             <img src="../img/PHP/rapport_eisen_analyse.png" class="img-fluid mt-4" alt="Eisenanalyse rapport">
           </div>
@@ -203,19 +204,74 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>Project link:</td>
-                  <td><a href="https://project.oho1.be" target="_blank">https://project.oho1.be</a></td>
+                  <td>Projectlink:</td>
+                  <td><a href="https://projectphp.kevinvandeputte.be/" target="_blank">https://projectphp.kevinvandeputte.be/</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="mt-3">
+              Via de projectlink komt u op het loginscherm van de applicatie. Met onderstaande gegevens kan u inloggen en het platform verkennen:
+            </p>
+            <table class="mt-3 table table-striped text-muted">
+              <thead>
+                <tr class="fw-bold">
+                  <th>Gebruikersrol</th>
+                  <th>E-mailadres</th>
+                  <th>Wachtwoord</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Gebruiker</td>
+                  <td>jury@oho1.be</td>
+                  <td id="pass_one">********** <span class="ms-3"><i class="fa-regular fa-eye" id="pass_one_eye"></i></span></td>
                 </tr>
                 <tr>
-                  <td>Gebruikersgegevens:</td>
-                  <td>email: testuser@oho1.be wachtwoord: user1234</td>
+                  <td>Goedkeurder</td>
+                  <td>juryapprove@oho1.be</td>
+                  <td id="pass_two">********** <span class="ms-3"><i class="fa-regular fa-eye" id="pass_two_eye"></i></span></td>
+                </tr>
+                <tr>
+                  <td>Financieel medewerker</td>
+                  <td>juryfin@oho1.be</td>
+                  <td id="pass_three">********** <span class="ms-3"><i class="fa-regular fa-eye" id="pass_three_eye"></i></span></td>
+                </tr>
+                <tr>
+                  <td>Gebruiker met administratierechten</td>
+                  <td>juryadmin@oho1.be</td>
+                  <td id="pass_four">********** <span class="ms-3"><i class="fa-regular fa-eye" id="pass_four_eye"></i></span></td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
       </div>
-
     </div>
+
+    <script>
+
+      function setPassword(passEye, pass){
+        passEye.addEventListener("click", function(){
+          pass.textContent = "welkom1234"
+        });
+      }
+
+      const passOneEye = document.querySelector('#pass_one_eye');
+      const passOne = document.querySelector('#pass_one');
+      setPassword(passOneEye, passOne);
+
+      const passTwoEye = document.querySelector('#pass_two_eye');
+      const passTwo = document.querySelector('#pass_two');
+      setPassword(passTwoEye, passTwo);
+
+      const passThreeEye = document.querySelector('#pass_three_eye');
+      const passThree = document.querySelector('#pass_three');
+      setPassword(passThreeEye, passThree);
+
+      const passFourEye = document.querySelector('#pass_four_eye');
+      const passFour = document.querySelector('#pass_four');
+      setPassword(passFourEye, passFour);
+    </script>
+
   </body>
 </html>
