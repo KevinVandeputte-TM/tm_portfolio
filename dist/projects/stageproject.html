@@ -66,7 +66,7 @@
       <div class="max-width-nav d-none" id="nav-home">
         <div class="logo">
           <div class="logo-inner">
-            <a href="../index.html">
+            <a href="/">
               <div class="label-logo on-hover-logo text-color-white"></div>
             </a>
           </div>
@@ -213,13 +213,10 @@
     <script>
       // To determine which back button to display
       const prevPage = document.referrer;
-      console.log(`Previously visited page URL: ${prevPage}`);
       let nav = prevPage.includes('projects');
       if (nav) {
-        console.log("navigate to projects")
         document.getElementById("nav-proj").classList.remove('d-none')
       } else{
-        console.log("navigate to home")
         document.getElementById("nav-home").classList.remove('d-none')
       }
     </script>
