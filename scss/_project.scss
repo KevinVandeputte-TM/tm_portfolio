@@ -6,13 +6,61 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 399px) {
+    .logo-inner-project {
+        top: 5%;
+        left: 75%;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 400px) and (max-width: 440px) {
+    h2{
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
     .logo-inner-project {
         top: 5%;
         left: 75%;
     }
 }
+
+@media screen and (max-width: 599px){
+    .youtube-video{
+        width: 330px;
+        height: 186px;
+    }
+} 
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+    .youtube-video{
+        width: 525px;
+        height: 295px;
+    }
+} 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .youtube-video{
+        width: 640px;
+        height: 360px;
+    }
+} 
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .youtube-video{
+        width: 854px;
+        height: 480px;
+    }
+} 
+@media screen and (min-width: 1280px){
+    .youtube-video{
+        width: 960px;
+        height: 540px;
+    }
+} 
+
 
 .label-logo-project {
     -webkit-animation: fadelogo .6s cubic-bezier(0.2, 0.6, 0.2, 1);
